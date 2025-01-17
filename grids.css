@@ -1,0 +1,45 @@
+.grid {
+  display: grid;
+  grid-template-columns: 500px repeat(2, 1fr);
+  grid-auto-rows: 200px 200px 600px;
+  row-gap: 10px;
+  column-gap: 10px;
+}
+section {
+  width: 100%;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #88a45d;
+  flex-wrap: wrap;
+}
+p {
+  font-size: 16px;
+  color: #2b3024;
+  text-align: justify;
+  padding: 10px;
+}
+.flex {
+  display: flex;
+  gap: 10px;
+}
+.flexitem {
+  flex: 1;
+  padding: 10px;
+}
+.gridclass,
+.flexitem {
+  height: 200px;
+  background-color: rgb(242, 178, 199);
+  padding: 20px;
+  border-radius: 10px;
+  border: 3px solid #88a45d;
+}
+*{
+  background-color: #f2b2c7;
+  padding: 20px;
+  border-radius: 10px;
+  border: 3px;
+}

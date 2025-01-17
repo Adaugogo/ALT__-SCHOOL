@@ -1,0 +1,16 @@
+/*this is how to comment in css*/
+/*element selector*/
+p{
+    color: blue;
+    font-size: 20px;
+    font: bold;
+}
+
+/*id selector*/
+#footer-p {
+    color: blueviolet;
+    font-size: smaller;
+}
+nav a {
+    color:rgb(188, 109, 19);
+}
