@@ -13,7 +13,9 @@ h4 {
   font-size: 20px;
   font-weight: bold;
   color: #88a45d;
-  flex-wrap: wrap;
+  padding: 0px;
+  margin-top:10px;
+  margin-bottom: 0px;
 }
 p {
   font-size: 16px;
@@ -37,9 +39,78 @@ p {
   border-radius: 10px;
   border: 3px solid #88a45d;
 }
-*{
-  background-color: #f2b2c7;
-  padding: 20px;
-  border-radius: 10px;
-  border: 3px;
+[href="https://x.com/bigbangbioinfo"] {
+  color: #88a45d;
+  font-size: 20px;
+  font-weight: bold;
 }
+[href^="karatu"] {
+  color: #88a45d;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+[href$="/"] {
+  color: #88a45d;
+  font-size: 20px;
+  font-weight: bold;
+}
+[href*="UTF"] {
+  color: #88a45d;
+  font-size: 20px;
+  font-weight: bold;
+}
+/* p:hover{
+  background-color: #bfd1a3;
+  color: #be48be;
+  border-radius: 10px;
+  padding: 10px;
+} */
+a:visited {
+  color: #872968;
+}
+li:nth-child(even)  {
+  background-color: #94a47c;
+  color: #b313b3;
+  border-radius: 10px;
+  padding: 10px;
+  text-transform: uppercase;
+}
+p::after, h4::after{
+  content: "❤️";
+  font-size: 20px;
+  display: inline-block
+}
+*::selection {
+  background-color: #2f6a78;
+  color: #fff;
+}
+div strong,ol li{
+  background-color: #a56e80;
+  padding: 10px;
+  border-radius: 10px;
+  color: #decda3;
+  list-style: none; 
+}
+a ~lh{
+  color: #72973a;
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+  margin-top: 10px;
+}
+section {
+  background-color: #e2bdc9;
+ .writing{
+  color: #6e1a6e;
+ } 
+ :hover {
+  background-color: #ca1853;
+}
+}
+table:has(caption), th, td {
+  border: 1px solid #88a45d;
+  padding: 10px;
+  width: 600px;
+  
+} 
