@@ -1,0 +1,57 @@
+<fieldset>
+    <legend>Who is your favorite student?</legend>
+    <ul>
+      <li>
+        <label>
+          <input type="radio" value="blendan" name="machine"> Blendan Smooth
+        </label>
+      </li>
+      <li>
+        <label>
+          <input type="radio" value="hoover" name="machine"> Hoover Sukhdeep
+        </label>
+      </li>
+      <li>
+        <label>
+          <input type="radio" value="toasty"  name="machine"> Toasty McToastface
+        </label>
+      </li>
+    </ul>
+  </fieldset>
+  
+<input type="text" id="full_name" name="name">
+<label for="full_name">Your name</label>
+
+
+<dialog open aria-labelledby="dialogid">
+  <form action="thankyou.php">
+    <button type="submit" aria-label="close"
+     formmethod="dialog" formnovalidate>X</button>
+    <h2 id="dialogid">Application</h2>
+    <p>All fields are required</p>
+    <p>
+       <label>Name:
+         <input type="text" name="name" required />
+      </label>
+    </p>
+    <p>
+      <label>Warranty:
+        <input type="number" min="0" max="10"
+         name="warranty" required />
+       </label>
+    </p>
+    <p>
+      <label>Power source:
+        <select name="powersoure">
+          <option>AC/DC</option>
+          <option>Battery</option>
+          <option>Solar</option>
+        </select>
+      </label>
+    </p>
+    <p>
+      <button type="submit"
+      formmethod="post">Submit</button>
+    </p>
+  </form>
+</dialog>
